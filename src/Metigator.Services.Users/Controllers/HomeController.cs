@@ -6,6 +6,6 @@ namespace Metigator.Services.Users.Controllers
     public class HomeController : ControllerBase
     {
         [HttpGet]
-        public IActionResult Get() => Ok("Users Payments Service");
+        public IActionResult Get() => Ok("Metigator Users Service");
     }
 }
